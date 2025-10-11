@@ -3,8 +3,9 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App.jsx";
 
-//importação do bootstrap
-import Button from 'react-bootstrap/Button';
+// Importação do bootstrap
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 //Provedor de rotas, do react.
 import { RouterProvider } from "react-router-dom";

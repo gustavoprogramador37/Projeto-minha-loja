@@ -1,13 +1,20 @@
 import './App.css'
 import { Outlet } from 'react-router-dom'
+//importação dos componentes do bootstrap 
+import Container from "react-bootstrap/Container" 
+
+
+
 
 function App() {
 
   return (
     <>
-       <div>
-        <Outlet></Outlet>
+       <div className='App d-flex'>
 
+        <Container className="text-center">
+        <Outlet/>
+        </Container>
 
        </div>      
     </>
